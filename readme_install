@@ -17,7 +17,7 @@
 
 d3[0].data
 
-
+https://docs.ethers.org/v5/api/utils/strings/
 > await ethers.toUtf8String(d3[0].data)
 
 
