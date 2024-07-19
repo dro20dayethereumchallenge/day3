@@ -7,6 +7,16 @@
 
 
 
+> const b2 = await ethers.provider.getBlock(3, true)
+
+> const d3 = b2.prefetchedTransactions
+
+
+> const d4 = b2.prefetchedTransactions
+
+
+d3[0].data
+
 
 
 
