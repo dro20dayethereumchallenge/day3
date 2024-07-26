@@ -1,11 +1,9 @@
-pragma solidity ^0.8.9;
-
-// Store a single data point and allow fetching/updating of that datapoint
 contract Hello {
 
     // data point
-    string public storedData;
-
+    string public storedData = "Hello, World";
+    
+    
     event myEventTest(string eventOutput);
 
     function set(string memory myText) public {
